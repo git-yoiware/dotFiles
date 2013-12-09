@@ -1,0 +1,35 @@
+[user]
+	name = leeon
+	email = leeon.ly@foxmail.com
+[color]
+	ui = True
+    branch = auto
+    status = auto
+    diff = auto
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+[color "status"]
+     added = yellow
+     changed = green
+     untracked = cyan
+[alias]
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	st = status
+	ct = commit
+	br = branch
+[core]
+	excludesfile = /Users/leeon/.gitignore_global
+	quotepath = false
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

@@ -1,0 +1,16 @@
+{
+	"color_scheme": "Packages/Base16 Color Schemes/base16-tomorrow.dark.tmTheme",
+	"draw_white_space": "all",
+	"font_face": "Ubuntu Mono",
+	"font_size": 18.0,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage",
+		"SublimeCodeIntel"
+	],
+	"tab_size": 4,
+	"theme": "Nil.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"wide_caret": true
+}

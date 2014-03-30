@@ -24,6 +24,7 @@
 	st = status
 	ct = commit
 	br = branch
+    ck = checkout
 [core]
 	excludesfile = /Users/leeon/.gitignore_global
 	quotepath = false
